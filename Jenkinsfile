@@ -56,7 +56,7 @@ pipeline {
                 groupId: 'cl.awakelab.junitapp',
                 version: '0.0.1-SNAPSHOT',
                 repository: 'maven-snapshots',
-                credentialsId: 'nex',
+                credentialsId: 'nexusLogin',
                 artifacts: [
                     [artifactId: 'proyectoJunit',
                     classifier: '',
